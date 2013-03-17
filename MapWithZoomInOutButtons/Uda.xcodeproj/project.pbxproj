@@ -20,8 +20,6 @@
 		C8423F8316BEC60C003AD214 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8423F8216BEC60C003AD214 /* SenTestingKit.framework */; };
 		C8423F8416BEC60C003AD214 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8423F5E16BEC60C003AD214 /* UIKit.framework */; };
 		C8423F8516BEC60C003AD214 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8423F6016BEC60C003AD214 /* Foundation.framework */; };
-		C8423F9A16BEDCA2003AD214 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8423F9916BEDCA2003AD214 /* GoogleMaps.framework */; };
-		C8423F9C16BEDCF3003AD214 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C8423F9B16BEDCF3003AD214 /* GoogleMaps.bundle */; };
 		C8423F9E16BEDE43003AD214 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8423F9D16BEDE43003AD214 /* AVFoundation.framework */; };
 		C8423FA016BEDE4A003AD214 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8423F9F16BEDE4A003AD214 /* CoreData.framework */; };
 		C8423FA216BEDE51003AD214 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8423FA116BEDE51003AD214 /* CoreLocation.framework */; };
@@ -64,8 +62,6 @@
 		C8423F7716BEC60C003AD214 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		C8423F8116BEC60C003AD214 /* UdaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8423F8216BEC60C003AD214 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C8423F9916BEDCA2003AD214 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
-		C8423F9B16BEDCF3003AD214 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
 		C8423F9D16BEDE43003AD214 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C8423F9F16BEDE4A003AD214 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C8423FA116BEDE51003AD214 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -103,7 +99,6 @@
 				C8423F5F16BEC60C003AD214 /* UIKit.framework in Frameworks */,
 				C8423F6116BEC60C003AD214 /* Foundation.framework in Frameworks */,
 				C8423F6316BEC60C003AD214 /* CoreGraphics.framework in Frameworks */,
-				C8423F9A16BEDCA2003AD214 /* GoogleMaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,8 +149,6 @@
 				C8423FA116BEDE51003AD214 /* CoreLocation.framework */,
 				C8423F9F16BEDE4A003AD214 /* CoreData.framework */,
 				C8423F9D16BEDE43003AD214 /* AVFoundation.framework */,
-				C8423F9B16BEDCF3003AD214 /* GoogleMaps.bundle */,
-				C8423F9916BEDCA2003AD214 /* GoogleMaps.framework */,
 				C8423F5E16BEC60C003AD214 /* UIKit.framework */,
 				C8423F6016BEC60C003AD214 /* Foundation.framework */,
 				C8423F6216BEC60C003AD214 /* CoreGraphics.framework */,
@@ -268,7 +261,6 @@
 				C8423F7316BEC60C003AD214 /* Default@2x.png in Resources */,
 				C8423F7516BEC60C003AD214 /* Default-568h@2x.png in Resources */,
 				C8423F7816BEC60C003AD214 /* MainStoryboard.storyboard in Resources */,
-				C8423F9C16BEDCF3003AD214 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
