@@ -14,12 +14,12 @@ Some samples I build while testing  Google Maps SDK for iOS
   More on this [in the docs](https://developers.google.com/maps/documentation/ios/start)
 
 
-2. Download the GoogleMaps SDK
+2. Get GoogleMaps SDK
 
-	[SDK](https://developers.google.com/maps/documentation/ios/start) and 
-    1. Drag the GoogleMaps.framework bundle to the Frameworks group of your project. When prompted, select Copy items into destination group's folder.
-    2. Right-click GoogleMaps.framework in your project, and select Show In Finder.
-    3. Drag the GoogleMaps.bundle from the Resources folder to your project. We suggest putting it in the Frameworks group. When prompted, ensure Copy items into destination group's folder is not selected.
+    1. Get the [SDK](https://developers.google.com/maps/documentation/ios/start) and 
+    2. Drag the GoogleMaps.framework bundle to the Frameworks group of your project. When prompted, select Copy items into destination group's folder.
+    3. Right-click GoogleMaps.framework in your project, and select Show In Finder.
+    4. Drag the GoogleMaps.bundle from the Resources folder to your project. We suggest putting it in the Frameworks group. When prompted, ensure Copy items into destination group's folder is not selected.
 
 3. If something goes wrong
 You should be go, because the rest of the setup is in the configuration alrady, but in case you have any problems 
