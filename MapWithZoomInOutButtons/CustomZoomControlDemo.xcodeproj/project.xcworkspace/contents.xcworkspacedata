@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Uda.xcodeproj">
+      location = "self:CustomZoomControlDemo.xcodeproj">
    </FileRef>
 </Workspace>

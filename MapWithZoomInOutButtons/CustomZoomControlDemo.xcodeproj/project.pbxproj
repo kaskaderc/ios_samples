@@ -12,7 +12,7 @@
 		C8423F6316BEC60C003AD214 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8423F6216BEC60C003AD214 /* CoreGraphics.framework */; };
 		C8423F6916BEC60C003AD214 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8423F6716BEC60C003AD214 /* InfoPlist.strings */; };
 		C8423F6B16BEC60C003AD214 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8423F6A16BEC60C003AD214 /* main.m */; };
-		C8423F6F16BEC60C003AD214 /* googleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8423F6E16BEC60C003AD214 /* googleAppDelegate.m */; };
+		C8423F6F16BEC60C003AD214 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8423F6E16BEC60C003AD214 /* AppDelegate.m */; };
 		C8423F7116BEC60C003AD214 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C8423F7016BEC60C003AD214 /* Default.png */; };
 		C8423F7316BEC60C003AD214 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8423F7216BEC60C003AD214 /* Default@2x.png */; };
 		C8423F7516BEC60C003AD214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8423F7416BEC60C003AD214 /* Default-568h@2x.png */; };
@@ -32,7 +32,9 @@
 		C8423FB216BEDEAB003AD214 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8423FB116BEDEAB003AD214 /* OpenGLES.framework */; };
 		C8423FB416BEDEB2003AD214 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8423FB316BEDEB2003AD214 /* QuartzCore.framework */; };
 		C8423FB616BEDEBB003AD214 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8423FB516BEDEBB003AD214 /* SystemConfiguration.framework */; };
-		C88761D216EFA9BD00A74C76 /* googleMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = C88761D116EFA9BD00A74C76 /* googleMainController.m */; };
+		C88761D216EFA9BD00A74C76 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = C88761D116EFA9BD00A74C76 /* MainController.m */; };
+		C8A4769216F68C16008C83BB /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A4769116F68C16008C83BB /* GoogleMaps.framework */; };
+		C8A4769416F68C25008C83BB /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C8A4769316F68C25008C83BB /* GoogleMaps.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,21 +48,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C8423F5A16BEC60C003AD214 /* Uda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8423F5A16BEC60C003AD214 /* CustomZoomControlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomZoomControlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8423F5E16BEC60C003AD214 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C8423F6016BEC60C003AD214 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C8423F6216BEC60C003AD214 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C8423F6616BEC60C003AD214 /* Uda-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Uda-Info.plist"; sourceTree = "<group>"; };
+		C8423F6616BEC60C003AD214 /* CustomZoomControlDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomZoomControlDemo-Info.plist"; sourceTree = "<group>"; };
 		C8423F6816BEC60C003AD214 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C8423F6A16BEC60C003AD214 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C8423F6C16BEC60C003AD214 /* Uda-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Uda-Prefix.pch"; sourceTree = "<group>"; };
-		C8423F6D16BEC60C003AD214 /* googleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = googleAppDelegate.h; sourceTree = "<group>"; };
-		C8423F6E16BEC60C003AD214 /* googleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = googleAppDelegate.m; sourceTree = "<group>"; };
+		C8423F6C16BEC60C003AD214 /* CustomZoomControlDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomZoomControlDemo-Prefix.pch"; sourceTree = "<group>"; };
+		C8423F6D16BEC60C003AD214 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C8423F6E16BEC60C003AD214 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C8423F7016BEC60C003AD214 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C8423F7216BEC60C003AD214 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C8423F7416BEC60C003AD214 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C8423F7716BEC60C003AD214 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		C8423F8116BEC60C003AD214 /* UdaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8423F8116BEC60C003AD214 /* CustomZoomControlDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomZoomControlDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8423F8216BEC60C003AD214 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		C8423F9D16BEDE43003AD214 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C8423F9F16BEDE4A003AD214 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -75,8 +77,10 @@
 		C8423FB116BEDEAB003AD214 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		C8423FB316BEDEB2003AD214 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C8423FB516BEDEBB003AD214 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		C88761D016EFA9BD00A74C76 /* googleMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = googleMainController.h; sourceTree = "<group>"; };
-		C88761D116EFA9BD00A74C76 /* googleMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = googleMainController.m; sourceTree = "<group>"; };
+		C88761D016EFA9BD00A74C76 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		C88761D116EFA9BD00A74C76 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		C8A4769116F68C16008C83BB /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		C8A4769316F68C25008C83BB /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 				C8423F5F16BEC60C003AD214 /* UIKit.framework in Frameworks */,
 				C8423F6116BEC60C003AD214 /* Foundation.framework in Frameworks */,
 				C8423F6316BEC60C003AD214 /* CoreGraphics.framework in Frameworks */,
+				C8A4769216F68C16008C83BB /* GoogleMaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +123,7 @@
 		C8423F4F16BEC60C003AD214 = {
 			isa = PBXGroup;
 			children = (
-				C8423F6416BEC60C003AD214 /* Uda */,
+				C8423F6416BEC60C003AD214 /* CustomZoonControlDemo */,
 				C8423F5D16BEC60C003AD214 /* Frameworks */,
 				C8423F5B16BEC60C003AD214 /* Products */,
 			);
@@ -127,8 +132,8 @@
 		C8423F5B16BEC60C003AD214 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C8423F5A16BEC60C003AD214 /* Uda.app */,
-				C8423F8116BEC60C003AD214 /* UdaTests.octest */,
+				C8423F5A16BEC60C003AD214 /* CustomZoomControlDemo.app */,
+				C8423F8116BEC60C003AD214 /* CustomZoomControlDemoTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,6 +141,8 @@
 		C8423F5D16BEC60C003AD214 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C8A4769316F68C25008C83BB /* GoogleMaps.bundle */,
+				C8A4769116F68C16008C83BB /* GoogleMaps.framework */,
 				C8423FB516BEDEBB003AD214 /* SystemConfiguration.framework */,
 				C8423FB316BEDEB2003AD214 /* QuartzCore.framework */,
 				C8423FB116BEDEAB003AD214 /* OpenGLES.framework */,
@@ -157,26 +164,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C8423F6416BEC60C003AD214 /* Uda */ = {
+		C8423F6416BEC60C003AD214 /* CustomZoonControlDemo */ = {
 			isa = PBXGroup;
 			children = (
 				C8423F7616BEC60C003AD214 /* MainStoryboard.storyboard */,
-				C88761D016EFA9BD00A74C76 /* googleMainController.h */,
-				C88761D116EFA9BD00A74C76 /* googleMainController.m */,
+				C88761D016EFA9BD00A74C76 /* MainController.h */,
+				C88761D116EFA9BD00A74C76 /* MainController.m */,
 				C8423F6516BEC60C003AD214 /* Supporting Files */,
 			);
+			name = CustomZoonControlDemo;
 			path = Uda;
 			sourceTree = "<group>";
 		};
 		C8423F6516BEC60C003AD214 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C8423F6D16BEC60C003AD214 /* googleAppDelegate.h */,
-				C8423F6E16BEC60C003AD214 /* googleAppDelegate.m */,
-				C8423F6616BEC60C003AD214 /* Uda-Info.plist */,
+				C8423F6D16BEC60C003AD214 /* AppDelegate.h */,
+				C8423F6E16BEC60C003AD214 /* AppDelegate.m */,
+				C8423F6616BEC60C003AD214 /* CustomZoomControlDemo-Info.plist */,
 				C8423F6716BEC60C003AD214 /* InfoPlist.strings */,
 				C8423F6A16BEC60C003AD214 /* main.m */,
-				C8423F6C16BEC60C003AD214 /* Uda-Prefix.pch */,
+				C8423F6C16BEC60C003AD214 /* CustomZoomControlDemo-Prefix.pch */,
 				C8423F7016BEC60C003AD214 /* Default.png */,
 				C8423F7216BEC60C003AD214 /* Default@2x.png */,
 				C8423F7416BEC60C003AD214 /* Default-568h@2x.png */,
@@ -187,9 +195,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C8423F5916BEC60C003AD214 /* Uda */ = {
+		C8423F5916BEC60C003AD214 /* CustomZoomControlDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8423F9316BEC60C003AD214 /* Build configuration list for PBXNativeTarget "Uda" */;
+			buildConfigurationList = C8423F9316BEC60C003AD214 /* Build configuration list for PBXNativeTarget "CustomZoomControlDemo" */;
 			buildPhases = (
 				C8423F5616BEC60C003AD214 /* Sources */,
 				C8423F5716BEC60C003AD214 /* Frameworks */,
@@ -199,14 +207,14 @@
 			);
 			dependencies = (
 			);
-			name = Uda;
+			name = CustomZoomControlDemo;
 			productName = Uda;
-			productReference = C8423F5A16BEC60C003AD214 /* Uda.app */;
+			productReference = C8423F5A16BEC60C003AD214 /* CustomZoomControlDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C8423F8016BEC60C003AD214 /* UdaTests */ = {
+		C8423F8016BEC60C003AD214 /* CustomZoomControlDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8423F9616BEC60C003AD214 /* Build configuration list for PBXNativeTarget "UdaTests" */;
+			buildConfigurationList = C8423F9616BEC60C003AD214 /* Build configuration list for PBXNativeTarget "CustomZoomControlDemoTests" */;
 			buildPhases = (
 				C8423F7C16BEC60C003AD214 /* Sources */,
 				C8423F7D16BEC60C003AD214 /* Frameworks */,
@@ -218,9 +226,9 @@
 			dependencies = (
 				C8423F8716BEC60C003AD214 /* PBXTargetDependency */,
 			);
-			name = UdaTests;
+			name = CustomZoomControlDemoTests;
 			productName = UdaTests;
-			productReference = C8423F8116BEC60C003AD214 /* UdaTests.octest */;
+			productReference = C8423F8116BEC60C003AD214 /* CustomZoomControlDemoTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -233,7 +241,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Kasia Derc-Fenske";
 			};
-			buildConfigurationList = C8423F5416BEC60C003AD214 /* Build configuration list for PBXProject "Uda" */;
+			buildConfigurationList = C8423F5416BEC60C003AD214 /* Build configuration list for PBXProject "CustomZoomControlDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -245,8 +253,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C8423F5916BEC60C003AD214 /* Uda */,
-				C8423F8016BEC60C003AD214 /* UdaTests */,
+				C8423F5916BEC60C003AD214 /* CustomZoomControlDemo */,
+				C8423F8016BEC60C003AD214 /* CustomZoomControlDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,6 +269,7 @@
 				C8423F7316BEC60C003AD214 /* Default@2x.png in Resources */,
 				C8423F7516BEC60C003AD214 /* Default-568h@2x.png in Resources */,
 				C8423F7816BEC60C003AD214 /* MainStoryboard.storyboard in Resources */,
+				C8A4769416F68C25008C83BB /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,8 +304,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8423F6B16BEC60C003AD214 /* main.m in Sources */,
-				C8423F6F16BEC60C003AD214 /* googleAppDelegate.m in Sources */,
-				C88761D216EFA9BD00A74C76 /* googleMainController.m in Sources */,
+				C8423F6F16BEC60C003AD214 /* AppDelegate.m in Sources */,
+				C88761D216EFA9BD00A74C76 /* MainController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +321,7 @@
 /* Begin PBXTargetDependency section */
 		C8423F8716BEC60C003AD214 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C8423F5916BEC60C003AD214 /* Uda */;
+			target = C8423F5916BEC60C003AD214 /* CustomZoomControlDemo */;
 			targetProxy = C8423F8616BEC60C003AD214 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -396,10 +405,10 @@
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Uda/Uda-Prefix.pch";
-				INFOPLIST_FILE = "Uda/Uda-Info.plist";
+				GCC_PREFIX_HEADER = "Uda/CustomZoomControlDemo-Prefix.pch";
+				INFOPLIST_FILE = "Uda/CustomZoomControlDemo-Info.plist";
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CustomZoomControlDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -413,10 +422,10 @@
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Uda/Uda-Prefix.pch";
-				INFOPLIST_FILE = "Uda/Uda-Info.plist";
+				GCC_PREFIX_HEADER = "Uda/CustomZoomControlDemo-Prefix.pch";
+				INFOPLIST_FILE = "Uda/CustomZoomControlDemo-Info.plist";
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CustomZoomControlDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -432,7 +441,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Uda/Uda-Prefix.pch";
 				INFOPLIST_FILE = "UdaTests/UdaTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CustomZoomControlDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -449,7 +458,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Uda/Uda-Prefix.pch";
 				INFOPLIST_FILE = "UdaTests/UdaTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CustomZoomControlDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -458,7 +467,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C8423F5416BEC60C003AD214 /* Build configuration list for PBXProject "Uda" */ = {
+		C8423F5416BEC60C003AD214 /* Build configuration list for PBXProject "CustomZoomControlDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C8423F9116BEC60C003AD214 /* Debug */,
@@ -467,7 +476,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8423F9316BEC60C003AD214 /* Build configuration list for PBXNativeTarget "Uda" */ = {
+		C8423F9316BEC60C003AD214 /* Build configuration list for PBXNativeTarget "CustomZoomControlDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C8423F9416BEC60C003AD214 /* Debug */,
@@ -476,7 +485,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8423F9616BEC60C003AD214 /* Build configuration list for PBXNativeTarget "UdaTests" */ = {
+		C8423F9616BEC60C003AD214 /* Build configuration list for PBXNativeTarget "CustomZoomControlDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C8423F9716BEC60C003AD214 /* Debug */,

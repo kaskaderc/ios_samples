@@ -1,19 +1,14 @@
 //
-//  googleMainController.m
-//  Uda
-//
-//  Created by Kasia Derc-Fenske on 3/12/13.
-//  Copyright (c) 2013 Kasia Derc-Fenske. All rights reserved.
+// MainController.m
 //
 
-#import "googleMainController.h"
+
+#import "MainController.h"
 #import <GoogleMaps/GoogleMaps.h>
 
 @implementation googleMainController
 
-
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
     self.googleMap.camera = [GMSCameraPosition cameraWithLatitude:41.9015141
                                                         longitude:12.4607737
@@ -21,11 +16,9 @@
                                                           bearing:10.f
                                                      viewingAngle:37.5f];
     self.googleMap.delegate = self;
-    
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
@@ -34,35 +27,30 @@
     NSLog(@"You changed camera position to zoom %f,  target: %f, %f ", position.zoom,
           position.targetAsCoordinate.latitude,
           position.targetAsCoordinate.longitude);
-
+    
 }
-
 
 - (void)mapView:(GMSMapView *)mapView didTapAtCoordinate:(CLLocationCoordinate2D)coordinate {
-      NSLog(@"You tapped at %f,%f", coordinate.latitude, coordinate.longitude);
+    NSLog(@"You tapped at %f,%f", coordinate.latitude, coordinate.longitude);
 }
 
-- (IBAction)tappedZoomOut:(UIButton *)sender {
+- (IBAction)didTapZoomOut:(UIButton *)sender {
+   [self moveCamera:-1];
+}
+
+- (IBAction)didTapZoomIn:(UIButton *)sender {
+    [self moveCamera:1];
+}
+
+- (void)moveCamera:(NSInteger)zoom {
     CGFloat currentZoom = self.googleMap.camera.zoom;
-    if (currentZoom > kGMSMinZoomLevel) {
+    if (currentZoom + zoom <= kGMSMaxZoomLevel && currentZoom + zoom >= kGMSMinZoomLevel) {
         self.googleMap.camera = [GMSCameraPosition cameraWithLatitude:self.googleMap.camera.target.latitude
                                                             longitude:self.googleMap.camera.target.longitude
-                                                                 zoom:currentZoom-1
+                                                                 zoom:currentZoom + zoom
                                                               bearing:self.googleMap.camera.bearing
                                                          viewingAngle:self.googleMap.camera.viewingAngle];
     }
 }
-
-- (IBAction)tappedZoomIn:(UIButton *)sender {
-    CGFloat currentZoom = self.googleMap.camera.zoom;
-    if (currentZoom < kGMSMaxZoomLevel) {
-        self.googleMap.camera = [GMSCameraPosition cameraWithLatitude:self.googleMap.camera.target.latitude
-                                                            longitude:self.googleMap.camera.target.longitude
-                                                                 zoom:currentZoom+1
-                                                              bearing:self.googleMap.camera.bearing
-                                                         viewingAngle:self.googleMap.camera.viewingAngle];
-    }
-}
-
 
 @end
